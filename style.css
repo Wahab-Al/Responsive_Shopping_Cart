@@ -1,0 +1,166 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:ital.wght@0.100..700;1.100..700&family=Ubuntu+Mono:ital.wght@0.400;0.700;1.400;1.700&display=swap');
+
+:root{
+    --main-color: #000000;
+    --secondary-color:  #f5f5f5;
+    --tertiary-color:  #f5f5f54d;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Ubuntu Mono", monospace;
+}
+
+body{
+    background: linear-gradient(
+    rgba(0, 0, 0,0.8),
+    rgba(0, 0, 0, 0.8),
+    rgba(0, 0, 0, 0.9),
+    rgba(0, 0, 0, 0.99),
+    rgba(0, 0, 0, 1),
+    rgba(0, 0, 0, 2)
+);
+    color: var(--secondary-color);
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+.container-fluid{
+    width: 100%;
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 30px 0;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+.col-11 {
+    width: 91.66666666666667%;
+}
+
+.col-10 {
+    width: 83.33333333333333%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-8 {
+    width: 66.66666666666667%;
+}
+
+.col-7 {
+    width: 58.33333333333334%;
+}
+
+.col-6 {
+    width: 50.00000000000002%;
+}
+
+.col-5 {
+    width: 41.66666666666667%;
+}
+
+.col-4 {
+    width: 33.33333333333334%;
+}
+
+.col-3 {
+    width: 25.00000000000003%;
+}
+
+.col-2 {
+    width: 16.6666666666667%;
+}
+
+.col-1 {
+    width: 8.33333333333333%;
+}
+
+
+
+.navbar{
+    width: 90%;
+    margin: auto;
+    height: 10%;
+    background-color: var(--center-color);
+    padding: 7px;
+    color: var(--secondary-color);
+}
+
+.navbar-fluid{
+    width: 100%;
+    margin: auto;
+    height: 10%;
+}
+
+.navbar>ul, .navbar-fluid>ul {
+    display: flex;
+}
+
+.nav-list {
+    justify-content: space-between;
+}
+
+.card {
+    color: var(--secondary-color);
+    padding: 5px;
+    margin: 3px 0px;
+    max-height: 300px;
+    overflow: hidden;
+    text-wrap: wrap;
+    text-align: center;
+    cursor: pointer;
+}
+
+.card img {
+    display: block;            
+    width: 100%;               
+    height: 150px;             
+    object-fit: cover;        
+    margin-bottom: 0.5rem;    
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+button {
+    width: 100%;
+    height: 40px;
+    background-color: var(--tertiary-color);
+    border: none;
+    border-radius: 4px;
+    color: var(--secondary-color);
+    display: none;
+    font-weight: bolder;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.info-product-content-price{
+    justify-content: space-between;
+}
+
+#total-products-price{
+    padding-left: 10%;
+}
+
+
+@media (max-width: 766px) {
+    .card{
+        width: 100%;
+    }
+}
