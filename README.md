@@ -20,11 +20,8 @@
 
 ## Demo
 
-![Home Page]()
-![Empty Cart Page Screenshot]()  
-![Cart Page Screenshot]()  
-![Favorite Page Screenshot]()  
-
+![Home Page](https://github.com/Wahab-Al/Responsive_Shopping_Cart/blob/ec27b1cf8445917ed1a40ac65d13cec50846fbb0/screenshots/Screenshot%202025-09-28%20204255.png)
+![Screenshot](https://github.com/Wahab-Al/Responsive_Shopping_Cart/blob/ec27b1cf8445917ed1a40ac65d13cec50846fbb0/screenshots/Screenshot%202025-09-28%20204345.png)  
 
 ---
 
